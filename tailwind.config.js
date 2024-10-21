@@ -5,11 +5,11 @@ export default {
     extend: {
       colors: {
         "eventPlanner-colors": {
-          primary: "#E0E2DB",
+          primary: "#5F7470",
           secondary: "#D2D4C8",
           accent: "#B8BDB5",
           background: "#889696",
-          detail: "#5F7470",
+          detail: "#E0E2DB",
         },
       },
     },
