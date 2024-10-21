@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-eventPlanner-colors-primary text-eventPlanner-colors-detail p-2 size-max">
+    <header className="bg-eventPlanner-colors-primary text-eventPlanner-colors-detail p-2 w-full">
       <div className="container mx-auto flex justify-center items-center">
         <NavLink
           to="/"
