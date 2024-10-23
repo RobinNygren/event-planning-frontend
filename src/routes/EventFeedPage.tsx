@@ -1,5 +1,5 @@
 import { NavLink, useParams } from "react-router-dom";
-import { EventCard } from "../components/EventCard";
+import { EventCard } from "../components/eventCard";
 
 export const EventFeedPage = () => {
   const events: any = [

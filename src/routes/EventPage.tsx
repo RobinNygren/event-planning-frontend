@@ -1,4 +1,4 @@
-import EventCard from "../components/eventCard";
+// import { EventCard } from "../components/EventCard";
 
 export const EventPage = () => {
   const event = {
