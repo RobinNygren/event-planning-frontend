@@ -9,12 +9,12 @@ const Navbar = () => {
           <Menu as="div" className="relative">
             {/* Optional: You can add Menu button here if needed in the future */}
           </Menu>
-          <NavLink
+          {/* <NavLink
             to="/event-page"
             className="px-4 py-2 rounded hover:bg-eventPlanner-colors-accent text-eventPlanner-colors-detail"
           >
             Event Page
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/event-feed"
             className="px-4 py-2 rounded hover:bg-eventPlanner-colors-accent text-eventPlanner-colors-detail"
