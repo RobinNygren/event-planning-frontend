@@ -1,26 +1,24 @@
-import React from "react";
-import { EventCardProps } from "../Types/eventTypes";
+type Event = {
+  title: string;
+  description: string;
+  date: string;
+  img?: string;
+  tailwind: string;
+};
 
-const EventCard: React.FC<EventCardProps> = ({
+export const EventCard = ({
   title,
-  date,
-  location,
   description,
-  imageUrl,
-}) => {
+  date,
+  img,
+  tailwind,
+}: Event) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-eventPlanner-colors-primary text-eventPlanner-colors-detail">
-      <img className="w-full" src={imageUrl} alt={title} />
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-eventPlanner-colors-detail text-base">{date}</p>
-        <p className="text-eventPlanner-colors-detail text-base">{location}</p>
-        <p className="text-eventPlanner-colors-detail text-base">
-          {description}
-        </p>
-      </div>
+    <div className={tailwind}>
+      <h2>{title}</h2>
+      <img src={img} alt="" />
+      <p>{description}</p>
+      <p>{date}</p>
     </div>
   );
 };
-
-export default EventCard;

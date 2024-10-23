@@ -15,6 +15,12 @@ const Navbar = () => {
           >
             Event Page
           </NavLink>
+          <NavLink
+            to="/event-feed"
+            className="px-4 py-2 rounded hover:bg-eventPlanner-colors-accent text-eventPlanner-colors-detail"
+          >
+            Event Feed
+          </NavLink>
         </div>
       </div>
     </nav>
