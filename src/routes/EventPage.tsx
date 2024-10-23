@@ -1,3 +1,3 @@
 export const EventPage = () => {
-  return <div>Event Page</div>;
+  return <div className="eventpage">Event Page</div>;
 };
